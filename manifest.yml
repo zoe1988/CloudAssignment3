@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: CloudAssignment3
+  host: CloudAssignment3
+  disk_quota: 1024M
+  services:
+  - Compose for MySQL-ha
